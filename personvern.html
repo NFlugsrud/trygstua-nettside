@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="nb">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Personvern | Trygstua AS</title>
+  <meta name="description" content="Slik behandler Trygstua AS personopplysninger.">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <a class="hopp" href="#innhold">Hopp til innhold</a>
+
+  <header class="topp">
+    <div class="ramme topp__rad">
+      <a class="logo" href="index.html" aria-label="Trygstua, til forsiden">
+        <svg viewBox="0 0 32 32" aria-hidden="true"><path d="M4 15 16 5l12 10v12H4z" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linejoin="round"/><path d="M13 27v-8h6v8" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linejoin="round"/></svg>
+        <span>Trygstua</span>
+      </a>
+      <button class="meny-knapp" aria-expanded="false" aria-controls="meny" aria-label="Meny"><span></span><span></span><span></span></button>
+      <nav class="meny" id="meny" aria-label="Hovedmeny">
+        <a href="index.html#leiligheter">Leiligheter</a>
+        <a href="index.html#slik">Slik leier du</a>
+        <a href="index.html#om">Om oss</a>
+        <a href="index.html#leietakere">For leietakere</a>
+        <a href="index.html#sporsmal">Spørsmål</a>
+        <a class="knapp knapp--liten" href="index.html#kontakt">Kontakt</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="innhold" class="underside">
+    <article class="ramme ramme--smal tekstside">
+      <p class="overtittel">Personvern</p>
+      <h1>Slik behandler vi personopplysninger</h1>
+      <p class="ingress">Trygstua AS (org.nr. <span data-orgnr></span>) er behandlingsansvarlig for personopplysningene vi mottar fra deg.</p>
+
+      <h2>Hva vi samler inn</h2>
+      <p>Når du tar kontakt, mottar vi opplysningene du selv sender: navn, e-postadresse, telefonnummer og innholdet i meldingen. Inngår vi leieavtale, behandler vi også opplysningene som trengs for kontrakt, fakturering og oppfølging av leieforholdet.</p>
+
+      <h2>Hva vi bruker dem til</h2>
+      <p>Opplysningene brukes til å svare på henvendelser, føre interesseliste, inngå og følge opp leieavtaler og behandle feilmeldinger. Grunnlaget er avtale med deg, eller vår berettigede interesse i å svare på det du spør om.</p>
+
+      <h2>Hvem som får tilgang</h2>
+      <p>Vi deler ikke opplysninger med andre enn dem vi trenger for å levere tjenesten, som leverandøren av digital leiekontrakt og fakturering (Husleie.no), og håndverkere når en feil skal utbedres. Vi selger aldri opplysninger videre.</p>
+
+      <h2>Hvor lenge vi lagrer</h2>
+      <p>Henvendelser og interesselister slettes når de ikke lenger er aktuelle. Dokumentasjon knyttet til leieforhold oppbevares så lenge bokføringsloven og andre regler krever det.</p>
+
+      <h2>Nettsiden</h2>
+      <p>Nettsiden bruker ingen informasjonskapsler og ingen analyseverktøy. Skriftene lastes fra Google Fonts, som da ser IP-adressen din. Skjemaene på siden lagrer ingenting hos oss før du selv sender e-posten fra ditt eget e-postprogram.</p>
+
+      <h2>Dine rettigheter</h2>
+      <p>Du kan be om innsyn i, retting av eller sletting av opplysningene vi har om deg. Send en e-post til <a data-epost href="#"></a>. Du kan også klage til Datatilsynet hvis du mener vi behandler opplysninger i strid med regelverket.</p>
+
+      <p><a class="lenke-pil lenke-pil--tilbake" href="index.html">Tilbake til forsiden</a></p>
+    </article>
+  </main>
+
+  <footer class="bunn">
+    <div class="ramme bunn__rad">
+      <div>
+        <a class="logo logo--lys" href="index.html"><svg viewBox="0 0 32 32" aria-hidden="true"><path d="M4 15 16 5l12 10v12H4z" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linejoin="round"/><path d="M13 27v-8h6v8" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linejoin="round"/></svg><span>Trygstua</span></a>
+        <p>Små leiligheter til leie i Kristiansand sentrum.</p>
+      </div>
+      <nav aria-label="Bunnmeny">
+        <a href="index.html#leiligheter">Leiligheter</a>
+        <a href="index.html#slik">Slik leier du</a>
+        <a href="index.html#leietakere">For leietakere</a>
+        <a href="index.html#kontakt">Kontakt</a>
+        <a href="personvern.html">Personvern</a>
+      </nav>
+      <p class="bunn__juss">© <span data-aar></span> Trygstua AS · Org.nr. <span data-orgnr></span></p>
+    </div>
+  </footer>
+
+  <script src="js/data.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
