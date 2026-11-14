@@ -1,6 +1,6 @@
-# Trygstua AS – nettside
+# Tryggstua AS – nettside
 
-Nettside for Trygstua AS, som leier ut små leiligheter i Kristiansand sentrum.
+Nettside for Tryggstua AS, som leier ut små leiligheter i Kristiansand sentrum.
 
 Siden er ren HTML, CSS og JavaScript. Det finnes ingen byggesteg og ingen avhengigheter som må installeres.
 

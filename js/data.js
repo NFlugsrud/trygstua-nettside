@@ -4,7 +4,7 @@
  */
 
 const SELSKAP = {
-  navn: "Trygstua AS",
+  navn: "Tryggstua AS",
   orgnr: "937 544 421",
   epost: "nicolaidahl00@gmail.com",
   telefon: "", // f.eks. "+47 900 00 000". La stå tom for å skjule.
